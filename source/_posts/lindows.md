@@ -24,3 +24,9 @@ categories:
 
 
  <video style="width: 100%;" controls src='http://pqi9tutry.bkt.clouddn.com/windows-terminal.mp4'></video>
+
+
+
+##### 相关阅读
+
+[微软Build:Windows 将附完整Linux内核，新命令行工具，开源六小时冲上GitHub第二](https://mp.weixin.qq.com/s/W3kfJ5Siryc2plB5rBn0_g)

@@ -36,3 +36,7 @@ categories: [资讯]
 视频如下
 
  <video style="width: 100%;" controls src='http://pqi9tutry.bkt.clouddn.com/oracle.mp4'></video>
+
+##### 相关阅读
+
+[Oracle中国良心裁员：首批900人，赔偿N+6](https://www.huxiu.com/article/298038.html?f=codefarmer.art)
