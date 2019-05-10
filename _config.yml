@@ -79,7 +79,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/codefarmer-art/codefarmer.art
+  repo: https://github.com/codefarmer-art/codefarmer-art.github.io.git
   branch: master
 
 disqus_shortname: codefarmer-art
