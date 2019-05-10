@@ -5,10 +5,9 @@
   "hexo": {
     "version": "3.8.0"
   },
-  "start": "hexo s",
   "scripts": {
-    "d": "hexo clean && hexo deploy",
-    "c": "git commit -am 'wite done' && hexo clean && hexo deploy"
+    "start": "hexo s",
+    "d": "git commit -am 'wite done' && hexo clean && hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.8.0",

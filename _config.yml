@@ -82,4 +82,4 @@ deploy:
   repo: https://github.com/codefarmer-art/codefarmer-art.github.io.git
   branch: master
 
-disqus_shortname: codefarmer-art
+disqus_shortname: 
