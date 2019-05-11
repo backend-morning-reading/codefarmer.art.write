@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "hexo s",
-    "d": "hexo clean && hexo deploy && git add . && git commit -am 'wite done'"
+    "d": "hexo clean && hexo deploy && git add . && git commit -am 'wite done' && git push"
   },
   "dependencies": {
     "hexo": "^3.8.0",
