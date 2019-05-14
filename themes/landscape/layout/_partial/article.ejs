@@ -36,10 +36,12 @@
   <% if (!index){ %>
   <%- partial('post/nav') %>
   <% } %>
-  <% if (!index && post.comments){ %>
+</article>
 
+<% if (!index && post.comments && config.livere_uid){ %>
+<section id="comments">
   <!-- 来必力City版安装代码 -->
-  <div id="lv-container" data-id="city" data-uid="MTAyMC80NDE1NS8yMDY4OQ==">
+  <div id="lv-container" data-id="city" data-uid="<%= config.livere_uid %>">
     <script type="text/javascript">
       if (navigator.userAgent.indexOf('Android') == -1 && navigator.userAgent.indexOf('iPhone') == -1) {
         (function (d, s) {
@@ -58,9 +60,9 @@
     </script>
     <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
   </div>
-  <!-- City版安装代码已完成 -->
-  <% } %>
-</article>
+</section>
+<!-- City版安装代码已完成 -->
+<% } %>
 
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">
