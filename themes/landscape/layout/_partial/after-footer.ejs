@@ -15,6 +15,23 @@
 <% } %>
 
 
+<% if(config.gitment.github_user){ %>
+<%- css('gitment/default') %>
+<%- js('gitment/gitment.browser.js') %>
+<script>
+  var gitment = new Gitment({
+    id: '<%= page.permalink %>',
+    owner: '<%= config.gitment.github_user %>',
+    repo: '<%= config.gitment.github_repo %>',
+    oauth: {
+      client_id: '<%= config.gitment.client_id %>',
+      client_secret: '<%= config.gitment.client_secret %>',
+    },
+  });
+  gitment.render('gitmentContainer')
+</script>
+<% } %>
+
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <script>
   var _hmt = _hmt || [];

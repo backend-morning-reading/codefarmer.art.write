@@ -82,6 +82,20 @@ deploy:
   repo: https://github.com/codefarmer-art/codefarmer-art.github.io.git
   branch: master
 
-disqus_shortname:
-#disqus_shortname: codefarmer-art
+  #disqus_shortname: codefarmer-art
 livere_uid: MTAyMC80NDE1NS8yMDY4OQ==
+  # Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+gitment:
+  enable: false
+  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true # Show comments count in post meta area
+  lazy: false # Comments lazy loading with a button
+  cleanly: false # Hide 'Powered by ...' on footer, and more
+  language: # Force language, or auto switch by theme
+  github_user: 
+  github_repo: 
+  client_id: 
+  client_secret: 
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
