@@ -11,7 +11,7 @@ categories: [资讯]
 
 
 
-![](http://pqi9tutry.bkt.clouddn.com/oracle-0.5.jpg)
+![](http://standard.qncdn.smachinex.com/oracle-0.5.jpg)
 
 
 
@@ -35,7 +35,7 @@ categories: [资讯]
 
 视频如下
 
- <video style="width: 100%;" controls src='http://pqi9tutry.bkt.clouddn.com/oracle.mp4'></video>
+ <video style="width: 100%;" controls src='http://standard.qncdn.smachinex.com/oracle.mp4'></video>
 
 ##### 相关阅读
 

@@ -23,7 +23,7 @@ categories:
 
 
 
- <video style="width: 100%;" controls src='http://pqi9tutry.bkt.clouddn.com/windows-terminal.mp4'></video>
+ <video style="width: 100%;" controls src='http://standard.qncdn.smachinex.com/windows-terminal.mp4'></video>
 
 
 
