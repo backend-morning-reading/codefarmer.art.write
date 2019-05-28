@@ -2,7 +2,7 @@
 title: 如果Github加了关税
 date: 2019-05-14 10:20:28
 tags: [贸易战, Github]
-categories: [自评]
+categories: [瞎说]
 ---
 
 ![](/images/github-tax.png)
